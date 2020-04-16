@@ -468,7 +468,7 @@ b、四则运算：和分数的四则运算类似。
 （1）定义
 ![](images/rational_exponent_definition.png)
 负号表示倒数。
-（3）化简
+（2）化简
 如果一个根式既含有指数，又含有根式，那么指数和根式的次数可以同时除以公因数，从而达到化简的结果；
 如果是多个根式相乘，那么可以寻找根式的公次数进行化简。
 6、复数(complex number)
@@ -480,6 +480,7 @@ i^2 = -1。
 加减法：实部或者虚部分别相加减。
 乘除法：实数或者虚数分别相乘除。
 运算的最终结果要结合i的性质进行化简，分母有理化——即实际表现为i没有指数，分母不能含有i。
+
 ## 二、遇到的问题及解决方法
 1、“perscription symbol”怎么翻译？
 其实是印刷错误," perscription"应该为“prescrption”, "prescrption symbol"就是处方药的标志，字母R尾部多一撇（℞）。
@@ -491,20 +492,47 @@ i^2 = -1。
 ## 四、总结
 1、先化简，后计算。
 2、计算时注意正负号；注意次数，次数为2时可以省略，其它次数不能省略；注意根号前面的系数。
-3、分母有理化时先计算分母，看是否可以和分子化简，然后再计算分子。
-4、“it is important to express your answer in the form your instructor prefers”
+3、“it is important to express your answer in the form your instructor prefers”
 
 # 九、二次方程(radical)
 ## 一、学习内容
 1、额外解(extraneous solution)
 又称伪解(spurious solution)，在解方程中产生的能满足方程，但是不满足原始方程的解。常见于含有开偶次方的方程中。
+2、解二次方程
+（1）因式分解
+    适用于可以因式分解的方程。
+（2）开平方法
+    a^n = b，如果n为奇数，那么解为b开n次方；如果n为偶数，那么解为正负b开n次方。
+（3）配方法(complete the square)
+    二次项系数化为1，c = (1/2*b)^2。适用于a=0, b为偶数的情况。
+（3）求根公式(quadratic formula)
+    a、把方程化为一般形式ax^2 + bx + c=0，从而确定a，b， c的值。
+    b、根据判别式b^2 - 4ac的值，判断根的情况。
+![](images/quadratic_formula.png)
+（4）替代法(substitution)
+    将低次幂替换成高次幂，或者将高次幂替换为低次幂，从而将原方程转变为一元二次方程进行求解。
+注：a.方程组的解可以用复数表示。
+3、二元一次方程组求解
 
 ## 二、遇到的问题及解决方法
-1、
+1、yard(码) vs foot(英尺) vs meter(米/公尺) vs rod(杆)
+
+1yard = 3 feet = 0.9 meter
+
+1foot = 0.3 meter
+
+1rod = 5 meter = 5.5 yard 
+2、美国货币单位有哪些？
+
+dollar(美元，$) 、cent(美分，₵)、penny(1美分)、nickle(5美分)、dime(10美分)，quarter dollar(25美分), half dollar(50美分)。
+3、mile(英里) vs kilometer(公里) 
+1mile = 1.6 km
+
 ## 三、作业情况统计
 （1）结果
     总计：道， 错误：道，正确：道，正确率：%。
 （2）分析
-    
+    错误主要原因为计算遗漏，正负号写反。次要问题为题目理解错误。
+
 ## 四、总结
-1、
+1、对于高次幂，几次幂就有几个解。
