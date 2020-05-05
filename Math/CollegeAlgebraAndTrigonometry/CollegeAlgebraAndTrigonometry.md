@@ -163,7 +163,7 @@ ab = ba
 
 (ab)c = a(bc)
 
-### (4)确定性(identity properties)
+### (4)恒等性(identity properties)
 
 加法：任何数和0相加等于该数本身。
 
@@ -220,6 +220,180 @@ a(b - c) = ab - ac
 3.  |a| * |b| = |ab|
 4.  ${\frac{ |a|}{|b|}}$ = |${ \frac{a}{b}}$| (b${\ne}$0)
 5.  |a + b| ${ \leq }$  |a| +  |b|
+
+# R3、多项式(polynomial)
+
+## 一、指数运算法则(Rules of Exponents)
+
+## 1、乘法法则(Product Rule)
+
+a^m^ . a^n^ = a^m+n^
+
+## 2、幂法则(Power Rule1)
+
+(a^m^)^n^ = a^mn^
+
+## 3、幂法则(Power Rule2)
+
+(ab)^M^ = a^m^b^m^
+
+## 4、幂法则(Power Rule 3)
+
+(${ \frac{a}{b}}$)^m^ = ${\frac{a^{m}}{b^{n}}}$ (b ${ \ne}$ 0)
+
+## 5、0指数
+
+对于任意的非0实数a，有a^0^ = 1。
+
+## 二、多项式(Polynomials)
+
+## 1、单项式(monomial)
+
+由数字或字母的**乘积**组成的代数式称为单项式。单项式中数字因式称为这个单项式的系数(coefficient)。
+
+注释：
+
+(1)单独的一个数或者字母也是单项式。
+
+(2)必须是乘积，不能是除。
+
+## 2、同类项(like terms)
+
+如果两个单项式，它们所含的字母相同，并且相同字母的指数也相同，那么就称者两个单项式为同类项。
+
+## 3、多项式(Polymonial)
+
+若干个单项式相加组成的代数式称为多项式。包含两项的称为二项式 (binomial)，包含三项的称为三项式(trinomial)。
+
+注：
+
+(1)多项式应该根据单项式的次数从高到低写。
+
+## 4、次数(degree of a term)
+
+### (1)单项式
+
+单项式所有字母的次数的和称为该单项式的**次数**。示例： x ^6^y^2^ 的次数为：6+2=8
+
+### (2)多项式
+
+在多项式中，次数最高的单项式的次数称为该多项式的次数。示例：2x ^4^ y ^3^ - 3x^5^y +x ^6^y^2^的次数为8。
+
+## 三、多项式加减(Addition and Subtraction)
+
+同类项的系数相加减。
+
+## 四、多项式相乘(Multiplication)
+
+### (1)法一：水平相乘。
+
+特别地，对于二项式，可以概括为FOIL。
+
+### (2)法二：垂直相乘
+
+### (3)平方差公式(difference of squares)
+
+x^2^ - y ^2^ = (x + y)(x - y)
+
+### (4)完全平方三项式(perfect square trinomials)
+
+完全平方和：(x + y)^2^ = x^2^  + 2xy  + y ^2^
+
+完全平方差：(x - y)^2^ = x^2^   - 2xy + + y ^2^
+
+## 五、多项式相除(Division)
+
+### (1)长除法(long division)
+
+对于未知数，长除法要求未知数的次数从高到低，必须每项都出现，如果没有的用0乘以该项不全。
+
+# R4、多项式分解(factoring Polynomials)
+
+## 一、提取最大公因式(Factoring Out the Greatest Common Factor)
+
+### 1、因式分解(factoring)
+
+把一个多项式分解为几个整式相乘的形式，称为因式分解。如：4x + 12 = 4(x + 3)，其中4称为因子(factor)。
+
+注：
+
+(1)因式分解是乘法(multiplication)的反向操作。
+
+### 2、素多项式(prime polynomial)
+
+不能进行因式分解的多项式称为素多项式。
+
+注：
+
+(1)因式分解到不能再分解，那么这样的因式分解称为完全因式分解(complete factorization)。
+
+## 二、分组分解(Factoring by Grouping)
+
+用于三项以上的多项式。
+
+## 三、分解三项式(Factoring Trinomials)
+
+使用FOIL方法。特别地，要注意完全平方公式。
+
+## 四、分解二项式(Factoring Binomials)
+
+### (1)平方差公式(difference of Square)
+
+x^2^ - y^2^ = (x + y) (x - y)
+
+### (2)立方差公式(difference of Cubes)
+
+x^3^ - y^3^ = (x - y) (x^2^ + xy + y^2^)
+
+### (3)立方和公式(sum of Cubes)
+
+x^3^ - y^3^ = (x + y) (x^2^ - xy + y^2^)
+
+## 五、替代法分解(Factoring by Substitution)
+
+用单项式代替多项式进行因式分解，然后再替换回去。
+
+注：无论使用什么方法分解，先提取GCF。
+
+# R5、有理式(Rational Expression)
+
+## 一、有理式(Rational Expression)
+
+两个多项式相除得到的商称为有理式，包括分式和整式。记作：${\frac{p}{q}}(q  { \ne0})$。示例：${\frac{x + 6}{x + 2}}$。
+
+注：
+
+(1)有理式的域是全体实数。
+
+## 二、最简式(Lowest Terms of a Rational Expression)
+
+如果有理式的最大公因子是1，那么这样的有理式称为有理式的最简式。
+
+## 三、乘除法(multiplication&Division)
+
+乘法：两个有理式相乘，分子(numerator)、分母(denominator)分别相乘。
+
+除法：除以一个有理式，等于乘以一个有理式的倒数。
+
+${\frac{a}{b}}*{\frac{c}{d}}={\frac{ac}{bd}}$
+
+${\frac{a}{b}}{\div}{\frac{c}{d}}={\frac{a}{b}}*{\frac{d}{c}}$
+
+注：
+
+(1)被除数(dividend, the first number)，除数(divisor, the second number)。
+
+## 四、加减法(Addition&Subtraction)
+
+分母先通分，然后分子相加减。
+
+注：
+
+(1)LCD: the Least Common Denominator,最小公分母。
+
+## 五、繁分数(Complex Fraction)
+
+分子(或分母)含有四则运算(或分数)的数称为**繁分数**。示例：${\frac{6 - {\frac{6}{k}} }{1 + \frac{5}{k}}}$
 
 # 参考资料
 
