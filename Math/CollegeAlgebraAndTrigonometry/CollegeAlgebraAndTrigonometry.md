@@ -46,6 +46,8 @@ S = {1,2,3,4}
 
 ### (2)描述法
 
+set-builder notation。
+
 {x|x是2到7之间的自然数}
 
 ### (3)图像法(Venn diagram)
@@ -157,9 +159,13 @@ a+b = b+a
 
 ab = ba
 
-### (3)结合性(associative properties)
+### (3)结合率(associative properties)
+
+加法：
 
 (a + b) + c = a + (b + c)
+
+乘法：
 
 (ab)c = a(bc)
 
@@ -229,15 +235,15 @@ a(b - c) = ab - ac
 
 a^m^ . a^n^ = a^m+n^
 
-## 2、幂法则(Power Rule1)
+## 2、幂的指数
 
 (a^m^)^n^ = a^mn^
 
-## 3、幂法则(Power Rule2)
+## 3、积的指数
 
 (ab)^M^ = a^m^b^m^
 
-## 4、幂法则(Power Rule 3)
+## 4、商的指数
 
 (${ \frac{a}{b}}$)^m^ = ${\frac{a^{m}}{b^{n}}}$ (b ${ \ne}$ 0)
 
@@ -395,9 +401,256 @@ ${\frac{a}{b}}{\div}{\frac{c}{d}}={\frac{a}{b}}*{\frac{d}{c}}$
 
 分子(或分母)含有四则运算(或分数)的数称为**繁分数**。示例：${\frac{6 - {\frac{6}{k}} }{1 + \frac{5}{k}}}$
 
+# R6、有理指数(Rational Exponents)
+
+## 一、负指数幂和除法法则(Negative Exponents and the Quotient Rule)
+
+### 1、负指数幂
+
+正数(nonzero real number)a的负指数幂等于a的正指数幂的倒数。记作：a^n^ = ${\frac{1}{a^{n}}}$(n${\in}$ R且n>0)。
+
+注：
+
+(1)(${\frac{a}{b}}$)^-n^ = (${\frac{b}{a}}$)^n^
+
+### 2、除法法则
+
+同底数幂相除，底数不变，指数相减。记作：${\frac{a^{m}}{b^{n}}}$= a^m-n^(n${\in}$ R且n>0且m,n${\in}Z$)
+
+注：
+
+(1)先按乘法法则，幂法则，除法法则计算，最后再求倒数。
+
+## 二、有理数指数幂(Rational Exponents)
+
+### 1、分数指数
+
+有理指数分数指数，是根式的一种表达形式。记作：a^m/n^ = (a^1/n^)^m^
+
+## 三、再看繁分数(Complex Fractions Revisited)
+
+# R7、根式(Radical Expressions)
+
+## 一、根号(Radical Notation)
+
+### 1.根号
+
+根式用${\sqrt[n]{a}}$表示，其中${\sqrt {\color {white}x}}$称为根号(radical symbol)，n称为指数(index)，a称为被开方数(radicand)。根式与有理式的关系记作：$a^{\frac{m}{n}}$ = (${\sqrt[n]{a}}$)^m^=${\sqrt[n]{a^{m}}}$(a${\in}R$, m${\in}Z$, n${\in}N$)。
+
+注：
+
+(1)如果指数是2，可以省略。
+
+(2)偶次根号下的结果不能为负数，奇次根号下的结果为负数。
+
+### 2、方根运算法则
+
+(1)乘法法则
+
+积的根是根的积。
+
+${\sqrt[n]{ab}}={\sqrt[n]{a}}$.${\sqrt[n]{b}}$
+
+(2)除法法则
+
+商的根是根的商。
+
+${\sqrt[n]{\frac{a}{b}}}={\frac{{\sqrt[n]{a}}}{{\sqrt[n]{b}}}}$
+
+(3)乘方法则
+
+指数的乘积等于连续开方。
+
+${\sqrt[mn]{a}}={\sqrt[m]{{\sqrt[n]{a}}}}$ 
+
+## 二、根式化简(Simplified RADICALS)
+
+### 1、最简根式
+
+(1)被开方数不能再开方。
+
+(2)被开方数不是分数。
+
+(3)分母不包含被开方数。
+
+(4)同类项已被合并。
+
+## 三、根式运算(Operations with Radicals)
+
+### 1、加减法
+
+前提条件：被开方数相同且根式指数相同。
+
+## 四、分母有理化(Rationalizing Denominators)
+
+### 1、共轭(conjugate)
+
+# 1.1线性方程
+
+## 一、方程的基本术语
+
+Basic Terminology of Equation.
+
+### 1、方程
+
+含有未知数的等式称为方程(equation)。
+
+### 2、解/根
+
+使方程成立的未知数的值称为方程的"解(solution)"或者"根(root)" 。所有的解组成的集合称为方程的解集(solution set)。
+
+### 3、同解方程
+
+如果两个方程的解相同，那么这两个方程称为同解方程(也叫“等价方程”、“等值方程”，equivalent equations)
+
+### 4、等式性质
+
+可以使用等式的性质解方程。
+
+(1)加法性质
+
+等式两边同时加上(或减去)同一个等式，等式仍然成立。
+
+(2)乘法性质
+
+等式两边同时乘以(或除以)一个不为零的等式，等式仍然成立。
+
+注：
+
+(1)解方程时记得要验证(check)结果。
+
+## 二、线性方程
+
+### 1、线性方程
+
+未知数(variable)的次数(degree)是一次的方程称为线性方程(Linear Equations)。线性方程也称为一次方程(first-degree equation)。
+
+注：
+
+(1)${\frac{1}{x}}$ = -8不是线性方程，因为x的次数是-1。
+
+### 2、一元一次方程
+
+只含有一个未知数，且未知数的次数是一次的方程(也叫一元线性方程)。记作：ax + b = 0( $a{\neq}0,a,b{\in}R$ 0)。如果含有两个未知数，且未知数的次数是一次，那么就说二元一次方程。
+
+## 三、恒等/条件/矛盾方程
+
+### 1、恒等方程
+
+方程的解是任何值的方程称为恒等方程(identity)。
+
+### 2、条件方程
+
+方程的解为某些值的方程称为条件方程(conditional equation)。
+
+### 3、矛盾方程
+
+无解的方程称为矛盾方程(contradiction)。
+
+## 四、求解指定的未知数(文字方程)
+
+Solving for a specified Variable(Literal Equations).
+
+### 1、文字方程
+
+不含数字的方程称为文字方程(literal equation)。
+
+### 2、单利(simple interest)
+
+只有本金计算利息，往期利息不纳入下一个周期利息计算的计息方式。
+
+(1)利息计算公式：I=Prt(P:本金，r:利率，t:计息时间，通常以年为单位)
+
+(2)到期值(maturity value):本金+利息 ，A=P(1+rt)
+
+# 1.2、线性方程的应用
+
+Application and Modeling with Linear Equation.
+
+## 一、解应用题
+
+solving applied problem.
+
+## 二、几何问题
+
+geometry problem.
+
+### 1、周长(perimeter)
+
+### 2、面积(area)
+
+### 3、图形中英文名称
+
+(1)cylinder: 圆柱体
+
+(2)triangle: 三角形
+
+(3)rectangle: 矩形。
+(4)
+
+## 三、运动问题
+
+motion problem.
+
+### 1、距离(distance)
+
+### 2、速率(rate)
+
+一般表示为speed，物理上用velocity表示。
+
+### 3、时间(time)
+
+d = rt。
+
+### 4、比赛中英文名称
+
+(1)World Track and Field Championship: 世界田径锦标赛
+
+
+
+## 四、混合物问题
+
+mixture problem.
+
+### 1、升(liter)
+
+1 gallon = 4.5 liter.
+
+1 liter = 1000 milliliter(毫升) 
+
+### 2、换气次数(ach)
+
+air change per hour.
+
+又叫换气率(air change rate),指单位时间内空气更换的次数，
+
+换气系数计算式为：
+
+$N={\frac{Q}{V}}$
+
+其中：
+
+- *N* = 换气次数（h^-1^)
+- *Q* = 每小时进入房间的风量 (m3/h)
+- V = 房间体检= *长*x *宽* × *高* (m3)
+
+## 五、建模
+
+modeling with linear equations.
+
+# 常见单位换算
+
+## 1、英里(mile)
+
+1 mile = 1.60934 km(公里) = 1609.34 m（米）
+
+1 mile = 
+
 # 参考资料
 
 [1]List of Latex mathematical symbol: https://oeis.org/wiki/List_of_LaTeX_mathematical_symbols#Set_and.2For_logic_notation
+
+[2]lsu, College Algebra and Trigonometry: https://www.math.lsu.edu/dept/courses/videos
 
 
 
