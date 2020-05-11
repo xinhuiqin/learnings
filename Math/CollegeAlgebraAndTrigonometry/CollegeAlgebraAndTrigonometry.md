@@ -638,13 +638,81 @@ $N={\frac{Q}{V}}$
 
 modeling with linear equations.
 
-# 常见单位换算
+# 1.3、复数
+
+## 一、基本概念
+
+Basic concepts of Complex Numbers.
+
+### 1、虚数单位
+
+虚数单位(imaginary unit.)用i表示，$i = {\sqrt{-1}}$，所以 i^2^ = -1。
+
+注：
+
+(1)对任意的正数${\sqrt{-a}}$，有${\sqrt{-a}}$ = $i{\sqrt{a}}$。
+
+### 2、复数
+
+设a、b是实数，则形如 z = a + bi的数称为复数(complex number)。其中，a称为实部(real part)，b称为虚部(imaginary part)。当a=0,b ${\ne}$ 0时，z称为纯虚数(pure imaginary)。
+
+### 3、共轭复数
+
+如果两个复数实部相等，虚部不相等，那么这两个复数称为为共轭复数(complex conjugate)。
+
+## 二、运算
+
+Operations on Complex Numbers.
+
+对复数进行运算时，对负数开方转换成用虚数表示。
+
+### 1、加减法
+
+实部/虚部分别相加减。
+
+### 2、乘法
+
+各项展开相乘。
+
+(1)共轭复数
+
+（a + bi)(a - bi) = a^2^  + b^2^
+
+### 3、除法
+
+使用共轭复数消除分母。
+
+### 4、指数
+
+(1)i^2^ = -1
+
+(2)i^3^ = -i
+
+(3)i^4^ = 1
+
+
+
+# 单位换算
 
 ## 1、英里(mile)
 
 1 mile = 1.60934 km(公里) = 1609.34 m（米）
 
 1 mile = 
+
+# 公式
+
+## 1、欧姆定律(Ohm's Law)
+
+$I={\frac{V}{R}}$
+
+```
+I: Intensity of current,电流强度(简称电流)
+E:Voltage,电压
+R:Resistance/Impedance,电阻
+```
+
+
 
 # 参考资料
 

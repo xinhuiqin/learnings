@@ -474,7 +474,7 @@ b、四则运算：和分数的四则运算类似。
 如果是多个根式相乘，那么可以寻找根式的公次数进行化简。
 6、复数(complex number)
 (1)定义
-我们把形如z=a+bi（a,b均为实数）的数称为复数，其中a称为实部(real number)，b称为虚部(imaginary number)，i称为虚数单位。
+我们把形如z=a+bi（a,b均为实数）的数称为复数，其中a称为实部(real part)，b称为虚部(imaginary part)，i称为虚数单位。
 (2)i的性质
 i^2 = -1。
 (3)运算
