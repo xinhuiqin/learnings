@@ -48,6 +48,8 @@ git version 2.28.0.windows.1
 
 因为 `.git-credentials` 存储的是明文密码，所以不推荐这种方式。
 
+## 2、
+
 # 参考资料
 
 [1] git-credential-store: https://git-scm.com/docs/git-credential-store
