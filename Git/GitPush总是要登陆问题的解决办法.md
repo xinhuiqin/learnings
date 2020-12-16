@@ -48,7 +48,19 @@ git version 2.28.0.windows.1
 
 因为 `.git-credentials` 存储的是明文密码，所以不推荐这种方式。
 
+注：
+
+（1）Logon failed, use ctrl+c to cancel basic credential prompt 错误
+
+如果提示这个错误。
+
+
+
 ## 2、git credential
+
+
+
+
 
 # 参考资料
 
