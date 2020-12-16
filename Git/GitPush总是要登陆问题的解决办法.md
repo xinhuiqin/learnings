@@ -38,7 +38,11 @@ git version 2.28.0.windows.1
 
 # 解决方式
 
-## 1、git config --global credential.helper store（不推荐）
+## 1、将Git升级到最新版
+
+卸载旧的版本，安装最新版的git。
+
+## 2、git config --global credential.helper （不推荐）
 
 进入到 git 项目中，然后运行命令 `git config --global credential.helper store` ，该命令会创建一个文件 `~/.git-credentials`（~符号表示用户目录），示例：
 
@@ -47,22 +51,6 @@ git version 2.28.0.windows.1
 创建后第一次需要输入密码，然后就不需要了。当然，也可以指定创建文件的目录，具体参考 [官方文档](https://git-scm.com/docs/git-credential-store) 。
 
 因为 `.git-credentials` 存储的是明文密码，所以不推荐这种方式。
-
-注：
-
-（1）Logon failed, use ctrl+c to cancel basic credential prompt 错误
-
-如果提示这个错误。可以使用下面的命令：
-
-
-
-
-
-## 2、git credential
-
-测试。
-
-
 
 # 参考资料
 
