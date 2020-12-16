@@ -52,7 +52,9 @@ git version 2.28.0.windows.1
 
 （1）Logon failed, use ctrl+c to cancel basic credential prompt 错误
 
-如果提示这个错误。
+如果提示这个错误。可以使用下面的命令：
+
+
 
 
 
