@@ -44,6 +44,8 @@ git version 2.28.0.windows.1
 
 ![](images/20201216_03_GitCredentials.png)
 
+当然，也可以指定创建文件的目录，具体参考 [官方文档](https://git-scm.com/docs/git-credential-store) 。
+
 因为 `.git-credentials` 存储的是明文密码，所以不推荐这种方式。
 
 # 参考资料
