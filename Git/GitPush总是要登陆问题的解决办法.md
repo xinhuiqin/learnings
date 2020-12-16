@@ -38,9 +38,13 @@ git version 2.28.0.windows.1
 
 # 解决方式
 
-## 1、git config --global credential.helper store
+## 1、git config --global credential.helper store（不推荐）
 
-进入到 git 项目中，然后运行命令 `git config --global credential.helper store` ，该命令会在
+进入到 git 项目中，然后运行命令 `git config --global credential.helper store` ，该命令会创建一个文件 `~/.git-credentials`（~符号表示用户目录），示例：
+
+![](images/20201216_03_GitCredentials.png)
+
+因为 `.git-credentials` 存储的是明文密码，所以不推荐这种方式。
 
 # 参考资料
 
