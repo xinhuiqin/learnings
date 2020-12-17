@@ -51,22 +51,29 @@ def postorder_iterate(root):
 
     # 栈使用列表模拟，用于记录暂时未访问的结点
     stack = []
-    prev = None
     while root or stack:
-        while root:  # 左分支下行，直到叶子结点
-            # 因为是后续遍历，所以根结点先记录，入栈
+        while root:  # 内层循环，找到叶子结点
+            # 因为是后续遍历，所以当前结点先入栈
             stack.append(root)
-            # 找到下一个应该访问的结点
-            root = root.left if root.left else root.right
-
-        # 回溯
+            root = root.left if root.val else root.right
+        # root可能是叶子结点（左右子结点都为None的根结点），也可能是左右子结点已经遍历了的根结点
         root = stack.pop()
+        # 处理根结点
         print(root.val)
-        # 当前结点是栈顶的左子结点，则遍历右子结点
-        if stack and root[-1].left:
+        # 如果栈不为空，栈顶元素即为当前结点的父结点，将父结点的左结点与当前结点比较，判断当前结点是左子结点还是右子结点
+        # 如果是左子结点，转去处理右子结点
+        if stack and stack[-1].left == root:
             root = stack[-1].right
+        # 1、如果栈为空：说明遍历全部完成，退出循环。2、如果是右子结点，那么父结点应该出栈，此时继续跳出大循环，然后再入循环
         else:
             root = None
+
+
+
+
+
+
+
 
 
 
