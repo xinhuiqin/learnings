@@ -10,6 +10,6 @@ def del_space(strs):
 
 
 if __name__ == '__main__':
-    example = '144. Binary Tree Preorder Traversal'
+    example = '1046. Last Stone Weight'
     del_space(example)
 
